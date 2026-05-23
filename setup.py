@@ -4,8 +4,9 @@ from setuptools import setup, find_packages
 setup(
     name="task-cli",
     version="0.1.0",
-    describe="CLI ToDo management tool",
+    description="CLI ToDo management tool",
     author="yoshikitaka",
+    author_email="yoshiki@example.com",
     python_requires=">=3.8",
     packages=find_packages(exclude=["tests*"]),
     install_requires=[
